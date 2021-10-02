@@ -1,0 +1,158 @@
+* {
+  /* margin: 0;
+  padding: 0;
+  border: solid; */
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.span {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  top: -16px;
+  left: -32px;
+  padding: 8px 14px;
+}
+.product {
+  border: solid #000000 4px;
+  width: 904px;
+  padding: 0px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  background-color: #f7f7f7;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.price {
+  font-size: 24px;
+  margin: 0px;
+  /* padding-top: 4px; */
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  color: #777777;
+}
+
+.more-info {
+  color: black;
+}
+
+.size {
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+}
+
+.choice1 {
+  background-color: black;
+}
+.choice2 {
+  background-color: #2f6ee2;
+}
+.choice3 {
+  background-color: #ec2f2f;
+}
+.choice4 {
+  background-color: #f0bf1e;
+}
+.choice5 {
+  background-color: #90cc20;
+}
+.choice6 {
+  background-color: #885214;
+}
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.details-list {
+  /* list-style-type: "\1F44D"; // thumbs up sign */
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+.add-cart:hover {
+  background-color: white;
+  color: black;
+}
+
+.add-cart {
+  width: 100%;
+  font-size: 20px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-top: solid #000000 4px;
+  /* margin-top: 0; */
+  /* clear: both; */
+}
+
+.details-list li {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.imgbox {
+  width: 270px;
+  height: 270px;
+  /* background-color: blue; */
+}
+
+.middlebox {
+  width: 270px;
+  height: 270px;
+
+  /* background-color: steelblue; */
+}
+.lastbox {
+  width: 270px;
+  height: 270px;
+  /* background-color: tomato; */
+}
+.img {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricerow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colorchoice {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
